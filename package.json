@@ -1,7 +1,7 @@
 {
   "name": "exercise",
   "version": "1.0.0",
-  "description": "",
+  "description": "[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/w0Rv1mgr) # NodeJS - NoSQL MongoDB Assignment Exercise",
   "main": "dist/server.js",
   "scripts": {
     "dev": "concurrently \"npx tsc --watch\" \"nodemon dist/server.js\"",
@@ -11,11 +11,13 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/cors": "^2.8.17",
     "@types/express": "^5.0.0",
     "@types/node": "^22.10.0"
   },
   "dependencies": {
     "concurrently": "^9.1.0",
+    "cors": "^2.8.5",
     "dotenv": "^16.4.5",
     "express": "^4.21.1",
     "mongoose": "^8.8.3"
